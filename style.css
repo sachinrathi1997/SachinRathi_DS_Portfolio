@@ -6,6 +6,7 @@ body {
 
 #home {
   background-color:  #7600bc;
+  font-size: 30px;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -13,20 +14,24 @@ body {
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
+  color: rgba(255, 255,255);
+  font-weight: bold;
  }
 
 .topmenu {
-  color: lightgray;
+  color: white;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
   text-decoration:underline;
-  text
+  font-weight: bold;
+  columns: red;
 }
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  font-weight: bolder; /* Make text bolder on hover */
+  text-decoration: underline; /* Underline text on hover */
 }
 
 .topdiv {
@@ -320,4 +325,21 @@ button:hover {
   border-radius: 6px;
   text-align: center;
   cursor: pointer;
+}
+.home-icon svg {
+  vertical-align: middle; /* Aligns the SVG vertically in the anchor tag */
+}
+
+.home-icon:hover {
+  opacity: 0.8; /* Slight change in opacity on hover for better visual feedback */
+}
+#popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(232, 188, 241);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(232, 188, 241));
 }
